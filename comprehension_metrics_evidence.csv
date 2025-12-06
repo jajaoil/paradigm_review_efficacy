@@ -1,0 +1,10 @@
+session_id,paradigm,developer_id,experience,comprehension_sec,defects_found,total_defects,complexity,review_rounds
+101,functional,dev_45,senior,167,4,5,medium,1
+102,functional,dev_23,mid-level,245,3,5,high,3
+103,functional,dev_67,junior,389,2,5,high,4
+104,object_oriented,dev_12,senior,215,4,5,medium,2
+105,object_oriented,dev_89,mid-level,278,3,5,high,2
+106,object_oriented,dev_34,junior,351,2,5,medium,3
+107,procedural,dev_56,senior,198,3,5,high,1
+108,procedural,dev_78,mid-level,254,3,5,medium,2
+109,procedural,dev_91,junior,287,3,5,low,2

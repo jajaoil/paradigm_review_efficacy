@@ -1,0 +1,18 @@
+comment_id,paradigm,comment_category,actual_comment,developer_exp,file_path,defect_detected,complexity
+1,functional,correctness,"This recursive factorial function missing base case for n=0",senior,math_utils.scala,true,medium
+2,functional,correctness,"Pure function 'calculateTotal' is accessing global cart state",mid-level,shopping.js,true,high
+3,functional,correctness,"Higher-order function 'transformData' not handling null inputs",senior,data_processor.scala,true,medium
+4,functional,performance,"Using 'foldLeft' instead of 'fold' causing stack overflow on large lists",senior,collections.scala,false,high
+5,functional,correctness,"Function composition chain missing error handling for division by zero",mid-level,calculations.js,true,medium
+6,object_oriented,design,"Violates Open/Closed principle - should use Strategy pattern here",senior,payment_processor.java,true,high
+7,object_oriented,design,"Consider making this class final to prevent inheritance misuse",senior,user_manager.java,false,low
+8,object_oriented,design,"Factory method should return interface type, not concrete class",senior,vehicle_factory.java,true,medium
+9,object_oriented,encapsulation,"Customer email field should be private with getter/setter",mid-level,customer.java,true,low
+10,object_oriented,design,"This breaks Liskov substitution - Square extending Rectangle",senior,shapes.java,true,high
+11,object_oriented,algorithm,"Bubble sort inefficient for large datasets - use QuickSort",junior,sorter.java,false,medium
+12,procedural,control_flow,"Infinite loop possible if server_response never returns SUCCESS",senior,network.c,true,high
+13,procedural,control_flow,"Missing bounds check in array iteration - potential buffer overflow",senior,data_processor.c,true,high
+14,procedural,state,"Global variable 'connection_count' not protected by mutex",senior,database.c,true,medium
+15,procedural,control_flow,"Switch statement missing default case for unknown operations",mid-level,parser.c,true,low
+16,procedural,state,"File handle not closed on early return in error condition",senior,file_io.c,true,medium
+17,procedural,control_flow,"While loop condition should be < MAX_USERS not <=",junior,user_manager.c,true,low

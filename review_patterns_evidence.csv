@@ -1,0 +1,10 @@
+paradigm,category,comment_count,percentage,example_comments
+functional,correctness_proofs,1936,68%,"Function not handling edge cases; Recursive function missing termination; Mathematical proof incomplete for this algorithm"
+functional,design_patterns,342,12%,"Could use monad pattern here; Consider using functor for this transformation"
+functional,control_flow,228,8%,"Sequence of operations might have race conditions"
+object_oriented,design_patterns,1622,57%,"Should use Observer pattern here; Factory method would be better; This breaks Singleton pattern constraints"
+object_oriented,encapsulation,512,18%,"Field should be private; Method暴露了internal state"
+object_oriented,correctness,427,15%,"Null pointer exception possible here; Boundary conditions not tested"
+procedural,control_flow,2050,72%,"Loop condition might skip last element; Error code not checked after system call; Switch case falling through"
+procedural,state_management,399,14%,"Global variable modified in multiple functions; Static variable causing side effects"
+procedural,correctness,256,9%,"Off-by-one error in array access; Integer overflow possible"

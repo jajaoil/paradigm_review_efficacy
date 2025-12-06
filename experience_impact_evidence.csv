@@ -1,0 +1,7 @@
+developer_id,primary_paradigm,reviewed_paradigm,comprehension_time,familiarity_score,defects_found,total_defects
+dev_01,object_oriented,object_oriented,189,5,4,5
+dev_01,object_oriented,functional,412,2,2,5
+dev_02,functional,functional,156,5,4,5
+dev_02,functional,object_oriented,387,3,2,5
+dev_03,procedural,procedural,201,5,3,5
+dev_03,procedural,functional,445,1,1,5

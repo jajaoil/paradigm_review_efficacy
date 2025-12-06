@@ -1,0 +1,10 @@
+paradigm,defect_type,defects_seeded,defects_found,detection_rate,example_comment
+object_oriented,encapsulation_violations,45,30,67%,"Public field should be private with accessors"
+object_oriented,inheritance_issues,30,16,53%,"Circular dependency in class hierarchy"
+object_oriented,algorithmic,40,17,42%,"Inefficient O(n^2) algorithm in search function"
+functional,side_effects,35,25,71%,"Function modifying external state - not pure"
+functional,higher_order_misuse,28,12,43%,"Callback function not handling promise rejection"
+functional,performance,32,12,38%,"Non-tail recursive function causing stack overflow"
+procedural,control_flow,50,30,60%,"Missing break statement in switch case"
+procedural,state_management,45,25,56%,"Global counter not atomic in multi-threaded context"
+procedural,memory_issues,40,22,55%,"Memory leak - allocated block not freed"
