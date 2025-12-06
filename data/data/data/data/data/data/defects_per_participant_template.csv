@@ -1,0 +1,3 @@
+participant_id,session_count,total_defects,total_found
+P001,3,9,6
+P002,3,9,4
