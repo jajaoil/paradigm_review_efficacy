@@ -1,0 +1,25 @@
+paradigm_review_efficacy/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── data/
+│   ├── timing_raw_template.csv
+│   ├── nasa_tlx_raw_template.csv
+│   ├── eye_aggregates_template.csv
+│   ├── comments_raw_template.csv
+│   ├── coding_sheet_template.csv
+│   └── defects_per_participant_template.csv
+├── analysis/
+│   ├── reproduce_main_results.ipynb
+│   ├── score_nasa_tlx.py
+│   ├── krippendorff_alpha.py
+│   ├── mixed_effects.py
+│   └── checksums_generate.sh
+├── screenshots/
+│   ├── originals/
+│   └── manifest.txt
+├── docs/
+│   └── ethics/
+│       ├── consent_template.pdf
+│       └── irb_approval.pdf
+└── checksums.sha256
