@@ -1,0 +1,3 @@
+comment_id,participant_id,session_id,text
+C0001,P001,S001,"The loop boundary seems off when input is zero"
+C0002,P002,S002,"The map function returns an extra null when the list is empty"
