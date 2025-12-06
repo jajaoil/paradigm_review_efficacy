@@ -1,0 +1,3 @@
+session_id,participant_id,participant_role,group,paradigm,sample_id,start_timestamp_iso,end_timestamp_iso,comprehension_time_seconds,defects_reported,defects_correct,exclusion_flag
+S001,P001,professional,A,object_oriented,SAMPLE_OO_01,2025-11-01T09:03:10Z,2025-11-01T09:07:50Z,280,2,2,
+S002,P002,student,A,functional,SAMPLE_FP_01,2025-11-01T09:10:00Z,2025-11-01T09:13:31Z,211,1,1,
