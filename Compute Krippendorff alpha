@@ -1,0 +1,3 @@
+from krippendorff_alpha import compute_alpha
+alpha = compute_alpha('../data/coding_sheet.csv')
+print('Krippendorff alpha', alpha)
