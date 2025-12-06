@@ -1,0 +1,4 @@
+import statsmodels.formula.api as smf
+md = smf.mixedlm("comprehension_time_seconds ~ C(paradigm) + participant_role", timing, groups=timing["participant_id"])
+mdf = md.fit(reml=False)
+print(mdf.summary())
