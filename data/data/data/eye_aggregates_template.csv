@@ -1,0 +1,3 @@
+participant_id,session_id,paradigm,total_fixation_seconds,mean_fixation_duration_ms,mean_pupil_dilation_mm,sampling_rate_hz,device_model,calibration_hash
+P001,S001,object_oriented,45.21,220,0.32,120,EyeTrackModelX,abc123
+P002,S002,functional,32.10,180,0.21,120,EyeTrackModelX,def456
