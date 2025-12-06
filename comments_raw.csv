@@ -1,0 +1,743 @@
+comment_id,session_id,participant_id,paradigm,comment_text,line_reference,comment_type
+1,1,1,object_oriented,The factory method pattern would work well here.,,security
+2,1,1,object_oriented,This class violates the Single Responsibility Principle.,30.0,documentation
+3,1,1,object_oriented,The factory method pattern would work well here.,197.0,documentation
+4,1,1,object_oriented,Consider using an interface here for flexibility.,,performance
+5,2,1,procedural,Consider breaking this into smaller functions.,185.0,documentation
+6,2,1,procedural,Magic numbers should be replaced with named constants.,196.0,style
+7,2,1,procedural,Consider adding input validation.,161.0,design
+8,2,1,procedural,Consider adding input validation.,40.0,design
+9,3,1,functional,The lambda is concise but lacks clarity.,200.0,security
+10,3,1,functional,This higher-order function could be more composable.,126.0,bug
+11,3,1,functional,Consider using recursion instead of iteration here.,79.0,style
+12,3,1,functional,This higher-order function could be more composable.,,security
+13,3,1,functional,Consider using recursion instead of iteration here.,,performance
+14,3,1,functional,Consider using recursion instead of iteration here.,137.0,style
+15,3,1,functional,The lambda is concise but lacks clarity.,141.0,style
+16,3,1,functional,Type signature could be more specific.,156.0,performance
+17,3,1,functional,This pure function has a side effect in line 148.,177.0,style
+18,3,1,functional,Type signature could be more specific.,172.0,documentation
+19,4,2,procedural,Error handling is inconsistent in this procedure.,133.0,performance
+20,4,2,procedural,Global variable used here creates hidden dependency.,,bug
+21,4,2,procedural,Error handling is inconsistent in this procedure.,,security
+22,4,2,procedural,The loop could be optimized by caching.,,documentation
+23,4,2,procedural,This function is too long (44 lines).,,bug
+24,4,2,procedural,Error handling is inconsistent in this procedure.,,style
+25,5,2,functional,Type signature could be more specific.,55.0,security
+26,5,2,functional,The lambda is concise but lacks clarity.,147.0,security
+27,5,2,functional,Good use of immutability throughout.,,performance
+28,6,2,object_oriented,This method has high cyclomatic complexity.,,bug
+29,6,2,object_oriented,This method has high cyclomatic complexity.,106.0,performance
+30,7,3,functional,This higher-order function could be more composable.,166.0,bug
+31,7,3,functional,This higher-order function could be more composable.,87.0,bug
+32,7,3,functional,This pure function has a side effect in line 59.,,performance
+33,7,3,functional,The lambda is concise but lacks clarity.,72.0,performance
+34,7,3,functional,This pure function has a side effect in line 29.,141.0,bug
+35,8,3,object_oriented,This class violates the Single Responsibility Principle.,139.0,bug
+36,8,3,object_oriented,Consider making this method virtual for extensibility.,61.0,style
+37,8,3,object_oriented,This method has high cyclomatic complexity.,55.0,performance
+38,8,3,object_oriented,This class violates the Single Responsibility Principle.,,bug
+39,8,3,object_oriented,This method has high cyclomatic complexity.,,performance
+40,8,3,object_oriented,The Processor class is tightly coupled to Parser.,,design
+41,8,3,object_oriented,Good use of encapsulation in this class.,149.0,documentation
+42,9,3,procedural,Consider adding input validation.,,design
+43,9,3,procedural,This function is too long (33 lines).,129.0,security
+44,9,3,procedural,Consider breaking this into smaller functions.,,security
+45,10,4,object_oriented,Consider making this method virtual for extensibility.,18.0,security
+46,10,4,object_oriented,Consider making this method virtual for extensibility.,61.0,performance
+47,10,4,object_oriented,Consider making this method virtual for extensibility.,146.0,style
+48,11,4,procedural,The control flow is complex and hard to follow.,159.0,bug
+49,11,4,procedural,Good algorithmic efficiency here.,145.0,security
+50,11,4,procedural,Error handling is inconsistent in this procedure.,53.0,documentation
+51,11,4,procedural,Error handling is inconsistent in this procedure.,,performance
+52,12,4,functional,The lambda is concise but lacks clarity.,77.0,performance
+53,12,4,functional,Memoization would improve performance here.,19.0,bug
+54,13,5,procedural,Side effects make this function hard to test.,145.0,bug
+55,13,5,procedural,Global variable used here creates hidden dependency.,130.0,design
+56,13,5,procedural,Consider breaking this into smaller functions.,18.0,style
+57,14,5,functional,Memoization would improve performance here.,,performance
+58,14,5,functional,Consider using function composition for better functional style.,168.0,security
+59,14,5,functional,This higher-order function could be more composable.,142.0,design
+60,14,5,functional,Consider using recursion instead of iteration here.,35.0,design
+61,14,5,functional,Consider using recursion instead of iteration here.,191.0,security
+62,15,5,object_oriented,Inheritance hierarchy seems deep here.,,security
+63,15,5,object_oriented,Good use of encapsulation in this class.,53.0,documentation
+64,15,5,object_oriented,The Processor class is tightly coupled to Validator.,14.0,bug
+65,15,5,object_oriented,This method has high cyclomatic complexity.,12.0,bug
+66,15,5,object_oriented,Consider using an interface here for flexibility.,164.0,design
+67,15,5,object_oriented,Inheritance hierarchy seems deep here.,142.0,documentation
+68,15,5,object_oriented,This method has high cyclomatic complexity.,29.0,bug
+69,16,6,functional,The lambda is concise but lacks clarity.,95.0,security
+70,16,6,functional,Consider using currying for better functional style.,11.0,design
+71,16,6,functional,Memoization would improve performance here.,11.0,design
+72,16,6,functional,This pure function has a side effect in line 73.,91.0,security
+73,16,6,functional,Function is doing too much - consider separating concerns.,192.0,style
+74,17,6,object_oriented,Good use of encapsulation in this class.,46.0,performance
+75,17,6,object_oriented,This class violates the Single Responsibility Principle.,,design
+76,17,6,object_oriented,This method has high cyclomatic complexity.,189.0,style
+77,17,6,object_oriented,The Manager class is tightly coupled to Database.,10.0,performance
+78,17,6,object_oriented,Good use of encapsulation in this class.,,performance
+79,17,6,object_oriented,Consider using an interface here for flexibility.,59.0,style
+80,17,6,object_oriented,This class violates the Single Responsibility Principle.,103.0,design
+81,18,6,procedural,Magic numbers should be replaced with named constants.,198.0,design
+82,18,6,procedural,Error handling is inconsistent in this procedure.,103.0,documentation
+83,19,7,object_oriented,The factory method pattern would work well here.,8.0,bug
+84,19,7,object_oriented,The Manager class is tightly coupled to Validator.,,security
+85,19,7,object_oriented,This method has high cyclomatic complexity.,81.0,performance
+86,19,7,object_oriented,Watch for potential Liskov Substitution violations.,30.0,performance
+87,19,7,object_oriented,Watch for potential Liskov Substitution violations.,,bug
+88,19,7,object_oriented,This method has high cyclomatic complexity.,,security
+89,20,7,procedural,The loop could be optimized by early exit.,171.0,design
+90,20,7,procedural,The control flow is complex and hard to follow.,32.0,documentation
+91,20,7,procedural,Magic numbers should be replaced with named constants.,171.0,performance
+92,20,7,procedural,Error handling is inconsistent in this procedure.,76.0,security
+93,21,7,functional,The lambda is concise but lacks clarity.,,documentation
+94,21,7,functional,Function is doing too much - consider separating concerns.,45.0,security
+95,22,8,procedural,The control flow is complex and hard to follow.,141.0,bug
+96,22,8,procedural,Magic numbers should be replaced with named constants.,,performance
+97,22,8,procedural,The control flow is complex and hard to follow.,83.0,performance
+98,22,8,procedural,Side effects make this function hard to test.,55.0,security
+99,22,8,procedural,Side effects make this function hard to test.,189.0,style
+100,22,8,procedural,Global variable used here creates hidden dependency.,,documentation
+101,23,8,functional,The monadic pattern here seems overly complex.,193.0,style
+102,23,8,functional,Type signature could be more specific.,,style
+103,23,8,functional,The lambda is concise but lacks clarity.,,style
+104,24,8,object_oriented,Polymorphism could simplify this logic.,197.0,bug
+105,24,8,object_oriented,Polymorphism could simplify this logic.,162.0,security
+106,24,8,object_oriented,Good use of encapsulation in this class.,99.0,performance
+107,25,9,functional,Function is doing too much - consider separating concerns.,,documentation
+108,25,9,functional,This higher-order function could be more composable.,198.0,bug
+109,25,9,functional,Function is doing too much - consider separating concerns.,,documentation
+110,25,9,functional,Consider using tail recursion for better functional style.,,style
+111,26,9,object_oriented,Consider making this method virtual for extensibility.,119.0,documentation
+112,26,9,object_oriented,The factory method pattern would work well here.,153.0,design
+113,26,9,object_oriented,Polymorphism could simplify this logic.,185.0,security
+114,26,9,object_oriented,This method has high cyclomatic complexity.,141.0,performance
+115,27,9,procedural,Consider breaking this into smaller functions.,122.0,performance
+116,27,9,procedural,Magic numbers should be replaced with named constants.,164.0,design
+117,27,9,procedural,Consider adding input validation.,62.0,design
+118,27,9,procedural,Side effects make this function hard to test.,,design
+119,27,9,procedural,The loop could be optimized by early exit.,139.0,bug
+120,28,10,object_oriented,Inheritance hierarchy seems deep here.,,performance
+121,28,10,object_oriented,Inheritance hierarchy seems deep here.,17.0,performance
+122,28,10,object_oriented,This method has high cyclomatic complexity.,120.0,performance
+123,28,10,object_oriented,This class violates the Single Responsibility Principle.,,performance
+124,29,10,procedural,Good algorithmic efficiency here.,150.0,documentation
+125,29,10,procedural,This function is too long (78 lines).,123.0,bug
+126,29,10,procedural,Error handling is inconsistent in this procedure.,,performance
+127,29,10,procedural,Good algorithmic efficiency here.,189.0,security
+128,29,10,procedural,The control flow is complex and hard to follow.,125.0,style
+129,29,10,procedural,Magic numbers should be replaced with named constants.,8.0,performance
+130,30,10,functional,Memoization would improve performance here.,104.0,documentation
+131,30,10,functional,The lambda is concise but lacks clarity.,33.0,security
+132,30,10,functional,Consider using map/filter/reduce for better functional style.,152.0,security
+133,30,10,functional,This higher-order function could be more composable.,,performance
+134,31,11,procedural,Consider breaking this into smaller functions.,47.0,bug
+135,31,11,procedural,Magic numbers should be replaced with named constants.,55.0,performance
+136,31,11,procedural,Error handling is inconsistent in this procedure.,98.0,design
+137,31,11,procedural,Good algorithmic efficiency here.,,bug
+138,31,11,procedural,Side effects make this function hard to test.,,security
+139,31,11,procedural,This function is too long (52 lines).,,bug
+140,31,11,procedural,This function is too long (78 lines).,,style
+141,32,11,functional,This pure function has a side effect in line 15.,62.0,style
+142,32,11,functional,Good use of immutability throughout.,145.0,style
+143,32,11,functional,Good use of immutability throughout.,197.0,design
+144,32,11,functional,The lambda is concise but lacks clarity.,192.0,documentation
+145,32,11,functional,Consider using recursion instead of iteration here.,42.0,design
+146,32,11,functional,Consider using recursion instead of iteration here.,80.0,security
+147,32,11,functional,Function is doing too much - consider separating concerns.,184.0,style
+148,32,11,functional,Consider using recursion instead of iteration here.,161.0,style
+149,32,11,functional,Consider using recursion instead of iteration here.,78.0,documentation
+150,33,11,object_oriented,Watch for potential Liskov Substitution violations.,145.0,bug
+151,33,11,object_oriented,Consider using an interface here for flexibility.,170.0,design
+152,33,11,object_oriented,Consider making this method virtual for extensibility.,88.0,bug
+153,34,12,functional,Function is doing too much - consider separating concerns.,28.0,performance
+154,34,12,functional,Memoization would improve performance here.,118.0,documentation
+155,34,12,functional,The lambda is concise but lacks clarity.,188.0,security
+156,34,12,functional,Type signature could be more specific.,138.0,performance
+157,35,12,object_oriented,Polymorphism could simplify this logic.,188.0,security
+158,35,12,object_oriented,The Handler class is tightly coupled to Logger.,23.0,design
+159,35,12,object_oriented,Polymorphism could simplify this logic.,,performance
+160,36,12,procedural,The control flow is complex and hard to follow.,98.0,design
+161,36,12,procedural,This function is too long (61 lines).,47.0,performance
+162,36,12,procedural,The loop could be optimized by early exit.,88.0,design
+163,36,12,procedural,The control flow is complex and hard to follow.,71.0,security
+164,37,13,object_oriented,This class violates the Single Responsibility Principle.,49.0,bug
+165,37,13,object_oriented,Good use of encapsulation in this class.,126.0,security
+166,37,13,object_oriented,Good use of encapsulation in this class.,166.0,documentation
+167,37,13,object_oriented,Polymorphism could simplify this logic.,5.0,bug
+168,37,13,object_oriented,The Manager class is tightly coupled to Parser.,79.0,documentation
+169,38,13,procedural,The control flow is complex and hard to follow.,142.0,security
+170,38,13,procedural,Error handling is inconsistent in this procedure.,191.0,security
+171,39,13,functional,Memoization would improve performance here.,117.0,design
+172,39,13,functional,Type signature could be more specific.,,bug
+173,39,13,functional,This pure function has a side effect in line 90.,,security
+174,39,13,functional,The lambda is concise but lacks clarity.,,documentation
+175,39,13,functional,Good use of immutability throughout.,,security
+176,40,14,procedural,Consider adding input validation.,26.0,style
+177,40,14,procedural,Magic numbers should be replaced with named constants.,,style
+178,40,14,procedural,Magic numbers should be replaced with named constants.,,security
+179,40,14,procedural,Consider breaking this into smaller functions.,,bug
+180,40,14,procedural,Consider adding input validation.,,style
+181,40,14,procedural,Side effects make this function hard to test.,,bug
+182,40,14,procedural,The control flow is complex and hard to follow.,,performance
+183,40,14,procedural,Side effects make this function hard to test.,14.0,design
+184,40,14,procedural,Side effects make this function hard to test.,,bug
+185,40,14,procedural,Good algorithmic efficiency here.,148.0,documentation
+186,41,14,functional,This higher-order function could be more composable.,,security
+187,41,14,functional,Type signature could be more specific.,,style
+188,41,14,functional,Consider using recursion instead of iteration here.,107.0,security
+189,41,14,functional,The monadic pattern here seems overly complex.,58.0,security
+190,41,14,functional,Function is doing too much - consider separating concerns.,114.0,design
+191,42,14,object_oriented,Watch for potential Liskov Substitution violations.,79.0,security
+192,42,14,object_oriented,Watch for potential Liskov Substitution violations.,,documentation
+193,42,14,object_oriented,Consider making this method virtual for extensibility.,54.0,documentation
+194,42,14,object_oriented,Good use of encapsulation in this class.,,bug
+195,42,14,object_oriented,Inheritance hierarchy seems deep here.,,security
+196,43,15,functional,Consider using recursion instead of iteration here.,,performance
+197,43,15,functional,Good use of immutability throughout.,121.0,design
+198,43,15,functional,This higher-order function could be more composable.,,documentation
+199,43,15,functional,Type signature could be more specific.,117.0,bug
+200,43,15,functional,This pure function has a side effect in line 77.,161.0,security
+201,43,15,functional,This pure function has a side effect in line 118.,,style
+202,43,15,functional,The lambda is concise but lacks clarity.,37.0,bug
+203,44,15,object_oriented,This class violates the Single Responsibility Principle.,,design
+204,44,15,object_oriented,Watch for potential Liskov Substitution violations.,146.0,design
+205,44,15,object_oriented,Polymorphism could simplify this logic.,,documentation
+206,44,15,object_oriented,The Processor class is tightly coupled to Validator.,127.0,performance
+207,44,15,object_oriented,Consider making this method virtual for extensibility.,111.0,documentation
+208,45,15,procedural,Error handling is inconsistent in this procedure.,7.0,bug
+209,45,15,procedural,The loop could be optimized by precomputing.,173.0,design
+210,45,15,procedural,The control flow is complex and hard to follow.,,style
+211,45,15,procedural,Side effects make this function hard to test.,114.0,design
+212,45,15,procedural,Consider breaking this into smaller functions.,112.0,documentation
+213,45,15,procedural,Side effects make this function hard to test.,121.0,design
+214,45,15,procedural,Good algorithmic efficiency here.,172.0,bug
+215,46,16,object_oriented,Inheritance hierarchy seems deep here.,178.0,performance
+216,46,16,object_oriented,The Processor class is tightly coupled to Database.,81.0,design
+217,46,16,object_oriented,Consider using an interface here for flexibility.,,performance
+218,47,16,procedural,Consider adding input validation.,1.0,documentation
+219,47,16,procedural,Consider adding input validation.,14.0,style
+220,47,16,procedural,Consider adding input validation.,194.0,performance
+221,48,16,functional,Good use of immutability throughout.,53.0,design
+222,48,16,functional,Consider using currying for better functional style.,113.0,documentation
+223,48,16,functional,Good use of immutability throughout.,,documentation
+224,48,16,functional,The monadic pattern here seems overly complex.,182.0,style
+225,48,16,functional,Type signature could be more specific.,142.0,performance
+226,48,16,functional,Consider using recursion instead of iteration here.,,bug
+227,49,17,procedural,Side effects make this function hard to test.,166.0,style
+228,49,17,procedural,Side effects make this function hard to test.,75.0,security
+229,49,17,procedural,Magic numbers should be replaced with named constants.,124.0,performance
+230,49,17,procedural,The loop could be optimized by loop unrolling.,99.0,style
+231,50,17,functional,The monadic pattern here seems overly complex.,35.0,bug
+232,50,17,functional,Type signature could be more specific.,107.0,design
+233,50,17,functional,Consider using function composition for better functional style.,73.0,documentation
+234,50,17,functional,Type signature could be more specific.,149.0,documentation
+235,51,17,object_oriented,Polymorphism could simplify this logic.,115.0,security
+236,51,17,object_oriented,Polymorphism could simplify this logic.,142.0,security
+237,52,18,functional,Function is doing too much - consider separating concerns.,83.0,style
+238,52,18,functional,This pure function has a side effect in line 108.,,performance
+239,53,18,object_oriented,This class violates the Single Responsibility Principle.,122.0,documentation
+240,53,18,object_oriented,This method has high cyclomatic complexity.,170.0,documentation
+241,53,18,object_oriented,Inheritance hierarchy seems deep here.,10.0,style
+242,54,18,procedural,Consider adding input validation.,85.0,bug
+243,54,18,procedural,Side effects make this function hard to test.,,performance
+244,54,18,procedural,This function is too long (76 lines).,,documentation
+245,54,18,procedural,Consider breaking this into smaller functions.,,design
+246,55,19,object_oriented,Consider using an interface here for flexibility.,102.0,documentation
+247,55,19,object_oriented,Consider making this method virtual for extensibility.,173.0,security
+248,55,19,object_oriented,This method has high cyclomatic complexity.,161.0,documentation
+249,55,19,object_oriented,Polymorphism could simplify this logic.,10.0,security
+250,55,19,object_oriented,Consider making this method virtual for extensibility.,,documentation
+251,55,19,object_oriented,The Manager class is tightly coupled to Database.,26.0,documentation
+252,56,19,procedural,Global variable used here creates hidden dependency.,178.0,design
+253,56,19,procedural,This function is too long (32 lines).,15.0,design
+254,56,19,procedural,Error handling is inconsistent in this procedure.,38.0,style
+255,56,19,procedural,Consider adding input validation.,175.0,style
+256,57,19,functional,The lambda is concise but lacks clarity.,,security
+257,57,19,functional,Function is doing too much - consider separating concerns.,62.0,performance
+258,57,19,functional,The monadic pattern here seems overly complex.,,performance
+259,57,19,functional,Type signature could be more specific.,171.0,bug
+260,57,19,functional,Good use of immutability throughout.,174.0,security
+261,58,20,procedural,Consider breaking this into smaller functions.,,design
+262,58,20,procedural,The control flow is complex and hard to follow.,,performance
+263,58,20,procedural,Magic numbers should be replaced with named constants.,78.0,style
+264,58,20,procedural,Good algorithmic efficiency here.,28.0,style
+265,59,20,functional,Function is doing too much - consider separating concerns.,148.0,design
+266,59,20,functional,Type signature could be more specific.,,documentation
+267,59,20,functional,Function is doing too much - consider separating concerns.,,security
+268,59,20,functional,This higher-order function could be more composable.,191.0,performance
+269,59,20,functional,Type signature could be more specific.,59.0,security
+270,60,20,object_oriented,Consider using an interface here for flexibility.,,style
+271,60,20,object_oriented,Watch for potential Liskov Substitution violations.,,documentation
+272,60,20,object_oriented,Inheritance hierarchy seems deep here.,161.0,documentation
+273,60,20,object_oriented,This class violates the Single Responsibility Principle.,113.0,bug
+274,60,20,object_oriented,Watch for potential Liskov Substitution violations.,34.0,bug
+275,60,20,object_oriented,The Handler class is tightly coupled to Parser.,,style
+276,60,20,object_oriented,The factory method pattern would work well here.,94.0,security
+277,60,20,object_oriented,The factory method pattern would work well here.,43.0,design
+278,61,21,functional,Good use of immutability throughout.,76.0,documentation
+279,61,21,functional,Memoization would improve performance here.,120.0,bug
+280,61,21,functional,The lambda is concise but lacks clarity.,58.0,documentation
+281,61,21,functional,Function is doing too much - consider separating concerns.,143.0,design
+282,62,21,object_oriented,Consider making this method virtual for extensibility.,4.0,design
+283,62,21,object_oriented,The factory method pattern would work well here.,,design
+284,63,21,procedural,Magic numbers should be replaced with named constants.,164.0,design
+285,63,21,procedural,Global variable used here creates hidden dependency.,121.0,bug
+286,64,22,object_oriented,Watch for potential Liskov Substitution violations.,144.0,design
+287,64,22,object_oriented,Watch for potential Liskov Substitution violations.,,bug
+288,64,22,object_oriented,Polymorphism could simplify this logic.,78.0,documentation
+289,65,22,procedural,Good algorithmic efficiency here.,,bug
+290,65,22,procedural,This function is too long (49 lines).,30.0,bug
+291,65,22,procedural,The loop could be optimized by caching.,95.0,documentation
+292,65,22,procedural,Consider adding input validation.,191.0,documentation
+293,65,22,procedural,Consider breaking this into smaller functions.,168.0,bug
+294,65,22,procedural,Side effects make this function hard to test.,72.0,bug
+295,66,22,functional,Memoization would improve performance here.,,performance
+296,66,22,functional,This pure function has a side effect in line 102.,,documentation
+297,66,22,functional,Memoization would improve performance here.,166.0,design
+298,66,22,functional,This higher-order function could be more composable.,49.0,bug
+299,67,23,procedural,Side effects make this function hard to test.,,style
+300,67,23,procedural,The control flow is complex and hard to follow.,13.0,design
+301,67,23,procedural,The loop could be optimized by caching.,53.0,bug
+302,68,23,functional,Consider using currying for better functional style.,60.0,design
+303,68,23,functional,The lambda is concise but lacks clarity.,153.0,bug
+304,68,23,functional,Type signature could be more specific.,38.0,style
+305,68,23,functional,Consider using function composition for better functional style.,29.0,documentation
+306,69,23,object_oriented,This class violates the Single Responsibility Principle.,,design
+307,69,23,object_oriented,Good use of encapsulation in this class.,5.0,style
+308,69,23,object_oriented,The Controller class is tightly coupled to Logger.,135.0,bug
+309,70,24,functional,Consider using recursion instead of iteration here.,200.0,design
+310,70,24,functional,Consider using map/filter/reduce for better functional style.,57.0,security
+311,70,24,functional,This higher-order function could be more composable.,169.0,security
+312,70,24,functional,Type signature could be more specific.,8.0,bug
+313,70,24,functional,Good use of immutability throughout.,110.0,documentation
+314,70,24,functional,Consider using recursion instead of iteration here.,114.0,bug
+315,70,24,functional,Consider using recursion instead of iteration here.,38.0,bug
+316,70,24,functional,The lambda is concise but lacks clarity.,,documentation
+317,71,24,object_oriented,Watch for potential Liskov Substitution violations.,84.0,performance
+318,71,24,object_oriented,Watch for potential Liskov Substitution violations.,117.0,security
+319,71,24,object_oriented,Watch for potential Liskov Substitution violations.,180.0,bug
+320,71,24,object_oriented,The factory method pattern would work well here.,56.0,performance
+321,72,24,procedural,Side effects make this function hard to test.,106.0,design
+322,72,24,procedural,Side effects make this function hard to test.,187.0,bug
+323,72,24,procedural,Error handling is inconsistent in this procedure.,171.0,design
+324,72,24,procedural,Error handling is inconsistent in this procedure.,176.0,performance
+325,72,24,procedural,Global variable used here creates hidden dependency.,,bug
+326,72,24,procedural,Global variable used here creates hidden dependency.,191.0,documentation
+327,72,24,procedural,Error handling is inconsistent in this procedure.,143.0,bug
+328,72,24,procedural,The control flow is complex and hard to follow.,144.0,design
+329,73,25,object_oriented,Consider making this method virtual for extensibility.,171.0,performance
+330,73,25,object_oriented,This class violates the Single Responsibility Principle.,154.0,design
+331,73,25,object_oriented,Consider using an interface here for flexibility.,,security
+332,73,25,object_oriented,Good use of encapsulation in this class.,,performance
+333,74,25,procedural,The loop could be optimized by precomputing.,143.0,design
+334,74,25,procedural,Global variable used here creates hidden dependency.,147.0,style
+335,74,25,procedural,Good algorithmic efficiency here.,197.0,security
+336,74,25,procedural,The control flow is complex and hard to follow.,143.0,bug
+337,75,25,functional,The monadic pattern here seems overly complex.,178.0,design
+338,75,25,functional,This higher-order function could be more composable.,,documentation
+339,76,26,procedural,Magic numbers should be replaced with named constants.,90.0,bug
+340,76,26,procedural,Consider breaking this into smaller functions.,145.0,documentation
+341,76,26,procedural,Good algorithmic efficiency here.,,documentation
+342,77,26,functional,This higher-order function could be more composable.,,security
+343,77,26,functional,This pure function has a side effect in line 106.,88.0,style
+344,77,26,functional,Memoization would improve performance here.,84.0,security
+345,77,26,functional,The monadic pattern here seems overly complex.,,bug
+346,77,26,functional,The lambda is concise but lacks clarity.,,security
+347,77,26,functional,This higher-order function could be more composable.,70.0,performance
+348,77,26,functional,Function is doing too much - consider separating concerns.,114.0,performance
+349,77,26,functional,Type signature could be more specific.,,security
+350,78,26,object_oriented,Consider making this method virtual for extensibility.,29.0,design
+351,78,26,object_oriented,Watch for potential Liskov Substitution violations.,171.0,design
+352,78,26,object_oriented,This class violates the Single Responsibility Principle.,,security
+353,78,26,object_oriented,This class violates the Single Responsibility Principle.,,design
+354,78,26,object_oriented,Good use of encapsulation in this class.,196.0,design
+355,78,26,object_oriented,The Handler class is tightly coupled to Database.,,documentation
+356,79,27,functional,Function is doing too much - consider separating concerns.,,performance
+357,79,27,functional,Consider using currying for better functional style.,172.0,design
+358,79,27,functional,Consider using recursion instead of iteration here.,190.0,bug
+359,79,27,functional,Function is doing too much - consider separating concerns.,,bug
+360,79,27,functional,Memoization would improve performance here.,147.0,performance
+361,79,27,functional,Function is doing too much - consider separating concerns.,,performance
+362,80,27,object_oriented,This class violates the Single Responsibility Principle.,44.0,security
+363,80,27,object_oriented,Polymorphism could simplify this logic.,93.0,bug
+364,80,27,object_oriented,This method has high cyclomatic complexity.,63.0,performance
+365,80,27,object_oriented,Watch for potential Liskov Substitution violations.,21.0,performance
+366,80,27,object_oriented,The Handler class is tightly coupled to Logger.,44.0,bug
+367,80,27,object_oriented,The factory method pattern would work well here.,136.0,security
+368,80,27,object_oriented,Good use of encapsulation in this class.,90.0,design
+369,80,27,object_oriented,Inheritance hierarchy seems deep here.,,style
+370,80,27,object_oriented,The Manager class is tightly coupled to Logger.,195.0,documentation
+371,81,27,procedural,Global variable used here creates hidden dependency.,,documentation
+372,81,27,procedural,Side effects make this function hard to test.,145.0,security
+373,81,27,procedural,Side effects make this function hard to test.,145.0,documentation
+374,81,27,procedural,The control flow is complex and hard to follow.,161.0,design
+375,82,28,object_oriented,Inheritance hierarchy seems deep here.,121.0,performance
+376,82,28,object_oriented,The Handler class is tightly coupled to Database.,19.0,design
+377,82,28,object_oriented,Polymorphism could simplify this logic.,15.0,design
+378,83,28,procedural,Magic numbers should be replaced with named constants.,,bug
+379,83,28,procedural,The control flow is complex and hard to follow.,99.0,performance
+380,83,28,procedural,The control flow is complex and hard to follow.,190.0,bug
+381,83,28,procedural,Side effects make this function hard to test.,147.0,documentation
+382,83,28,procedural,The loop could be optimized by early exit.,129.0,style
+383,83,28,procedural,This function is too long (58 lines).,,design
+384,83,28,procedural,Global variable used here creates hidden dependency.,45.0,bug
+385,83,28,procedural,The loop could be optimized by loop unrolling.,135.0,security
+386,84,28,functional,The monadic pattern here seems overly complex.,,design
+387,84,28,functional,Type signature could be more specific.,199.0,design
+388,84,28,functional,The monadic pattern here seems overly complex.,,documentation
+389,85,29,procedural,Error handling is inconsistent in this procedure.,,bug
+390,85,29,procedural,Consider adding input validation.,73.0,design
+391,86,29,functional,The monadic pattern here seems overly complex.,86.0,bug
+392,86,29,functional,The monadic pattern here seems overly complex.,90.0,design
+393,87,29,object_oriented,This method has high cyclomatic complexity.,,documentation
+394,87,29,object_oriented,Consider making this method virtual for extensibility.,97.0,documentation
+395,87,29,object_oriented,Consider using an interface here for flexibility.,172.0,documentation
+396,87,29,object_oriented,The factory method pattern would work well here.,,documentation
+397,87,29,object_oriented,This method has high cyclomatic complexity.,5.0,design
+398,87,29,object_oriented,The Manager class is tightly coupled to Logger.,197.0,performance
+399,87,29,object_oriented,Good use of encapsulation in this class.,,style
+400,88,30,functional,The lambda is concise but lacks clarity.,,bug
+401,88,30,functional,Consider using map/filter/reduce for better functional style.,197.0,security
+402,88,30,functional,The lambda is concise but lacks clarity.,40.0,style
+403,88,30,functional,The lambda is concise but lacks clarity.,198.0,security
+404,88,30,functional,The lambda is concise but lacks clarity.,12.0,performance
+405,89,30,object_oriented,Consider using an interface here for flexibility.,61.0,performance
+406,89,30,object_oriented,Watch for potential Liskov Substitution violations.,,documentation
+407,89,30,object_oriented,Polymorphism could simplify this logic.,,style
+408,89,30,object_oriented,The Processor class is tightly coupled to Logger.,147.0,performance
+409,89,30,object_oriented,Polymorphism could simplify this logic.,200.0,performance
+410,89,30,object_oriented,The factory method pattern would work well here.,42.0,style
+411,90,30,procedural,The control flow is complex and hard to follow.,,design
+412,90,30,procedural,This function is too long (71 lines).,96.0,security
+413,90,30,procedural,Global variable used here creates hidden dependency.,133.0,bug
+414,90,30,procedural,Magic numbers should be replaced with named constants.,,style
+415,90,30,procedural,Magic numbers should be replaced with named constants.,132.0,style
+416,91,31,object_oriented,This method has high cyclomatic complexity.,,style
+417,91,31,object_oriented,Polymorphism could simplify this logic.,7.0,performance
+418,91,31,object_oriented,This class violates the Single Responsibility Principle.,96.0,style
+419,91,31,object_oriented,This method has high cyclomatic complexity.,96.0,style
+420,91,31,object_oriented,This class violates the Single Responsibility Principle.,26.0,documentation
+421,91,31,object_oriented,Consider using an interface here for flexibility.,36.0,bug
+422,91,31,object_oriented,The Processor class is tightly coupled to Logger.,121.0,performance
+423,91,31,object_oriented,Watch for potential Liskov Substitution violations.,,bug
+424,91,31,object_oriented,This class violates the Single Responsibility Principle.,,style
+425,92,31,procedural,Consider adding input validation.,156.0,security
+426,92,31,procedural,Good algorithmic efficiency here.,,design
+427,92,31,procedural,The loop could be optimized by early exit.,,style
+428,92,31,procedural,Good algorithmic efficiency here.,160.0,performance
+429,93,31,functional,Consider using recursion instead of iteration here.,,performance
+430,93,31,functional,The monadic pattern here seems overly complex.,162.0,security
+431,93,31,functional,The monadic pattern here seems overly complex.,,style
+432,93,31,functional,Type signature could be more specific.,158.0,design
+433,93,31,functional,This pure function has a side effect in line 116.,,documentation
+434,94,32,procedural,Global variable used here creates hidden dependency.,93.0,bug
+435,94,32,procedural,Consider adding input validation.,130.0,security
+436,94,32,procedural,This function is too long (54 lines).,12.0,documentation
+437,94,32,procedural,Good algorithmic efficiency here.,65.0,documentation
+438,94,32,procedural,This function is too long (52 lines).,89.0,style
+439,94,32,procedural,Global variable used here creates hidden dependency.,189.0,design
+440,94,32,procedural,Consider breaking this into smaller functions.,,security
+441,95,32,functional,Memoization would improve performance here.,45.0,documentation
+442,95,32,functional,Good use of immutability throughout.,123.0,documentation
+443,95,32,functional,The lambda is concise but lacks clarity.,17.0,documentation
+444,96,32,object_oriented,Polymorphism could simplify this logic.,,style
+445,96,32,object_oriented,This class violates the Single Responsibility Principle.,11.0,design
+446,96,32,object_oriented,The Processor class is tightly coupled to Parser.,,documentation
+447,96,32,object_oriented,Good use of encapsulation in this class.,,bug
+448,96,32,object_oriented,Consider using an interface here for flexibility.,,design
+449,96,32,object_oriented,This method has high cyclomatic complexity.,191.0,performance
+450,96,32,object_oriented,This method has high cyclomatic complexity.,48.0,performance
+451,96,32,object_oriented,Polymorphism could simplify this logic.,133.0,design
+452,97,33,functional,Consider using recursion instead of iteration here.,21.0,performance
+453,97,33,functional,The monadic pattern here seems overly complex.,47.0,security
+454,97,33,functional,Type signature could be more specific.,21.0,design
+455,97,33,functional,Type signature could be more specific.,155.0,documentation
+456,97,33,functional,Function is doing too much - consider separating concerns.,,performance
+457,98,33,object_oriented,Consider using an interface here for flexibility.,187.0,design
+458,98,33,object_oriented,Watch for potential Liskov Substitution violations.,71.0,documentation
+459,98,33,object_oriented,This class violates the Single Responsibility Principle.,,documentation
+460,98,33,object_oriented,This method has high cyclomatic complexity.,192.0,documentation
+461,98,33,object_oriented,Inheritance hierarchy seems deep here.,37.0,security
+462,99,33,procedural,Side effects make this function hard to test.,,bug
+463,99,33,procedural,The loop could be optimized by early exit.,146.0,bug
+464,100,34,object_oriented,Watch for potential Liskov Substitution violations.,,performance
+465,100,34,object_oriented,Consider using an interface here for flexibility.,196.0,bug
+466,100,34,object_oriented,Watch for potential Liskov Substitution violations.,,design
+467,100,34,object_oriented,This method has high cyclomatic complexity.,72.0,style
+468,100,34,object_oriented,Consider making this method virtual for extensibility.,,style
+469,100,34,object_oriented,Polymorphism could simplify this logic.,144.0,bug
+470,100,34,object_oriented,The Handler class is tightly coupled to Parser.,,security
+471,100,34,object_oriented,The Processor class is tightly coupled to Logger.,,bug
+472,101,34,procedural,Side effects make this function hard to test.,,documentation
+473,101,34,procedural,Side effects make this function hard to test.,175.0,design
+474,101,34,procedural,Error handling is inconsistent in this procedure.,141.0,security
+475,101,34,procedural,Magic numbers should be replaced with named constants.,41.0,documentation
+476,101,34,procedural,Consider breaking this into smaller functions.,131.0,style
+477,101,34,procedural,Global variable used here creates hidden dependency.,36.0,style
+478,101,34,procedural,Side effects make this function hard to test.,,security
+479,101,34,procedural,The control flow is complex and hard to follow.,142.0,style
+480,101,34,procedural,The control flow is complex and hard to follow.,17.0,design
+481,102,34,functional,Function is doing too much - consider separating concerns.,185.0,performance
+482,102,34,functional,Consider using tail recursion for better functional style.,148.0,bug
+483,102,34,functional,The lambda is concise but lacks clarity.,165.0,bug
+484,103,35,procedural,Side effects make this function hard to test.,133.0,design
+485,103,35,procedural,Consider breaking this into smaller functions.,200.0,security
+486,103,35,procedural,The control flow is complex and hard to follow.,,style
+487,103,35,procedural,Good algorithmic efficiency here.,15.0,bug
+488,104,35,functional,Consider using currying for better functional style.,42.0,design
+489,104,35,functional,This pure function has a side effect in line 98.,133.0,design
+490,104,35,functional,Consider using recursion instead of iteration here.,,documentation
+491,104,35,functional,Consider using function composition for better functional style.,,design
+492,105,35,object_oriented,Watch for potential Liskov Substitution violations.,129.0,documentation
+493,105,35,object_oriented,Inheritance hierarchy seems deep here.,149.0,style
+494,105,35,object_oriented,Inheritance hierarchy seems deep here.,185.0,security
+495,105,35,object_oriented,Consider using an interface here for flexibility.,145.0,bug
+496,106,36,functional,This higher-order function could be more composable.,,documentation
+497,106,36,functional,The monadic pattern here seems overly complex.,,style
+498,106,36,functional,The monadic pattern here seems overly complex.,164.0,bug
+499,106,36,functional,Good use of immutability throughout.,140.0,design
+500,106,36,functional,Type signature could be more specific.,176.0,performance
+501,106,36,functional,Type signature could be more specific.,177.0,bug
+502,106,36,functional,The lambda is concise but lacks clarity.,124.0,performance
+503,106,36,functional,This pure function has a side effect in line 97.,81.0,documentation
+504,106,36,functional,Memoization would improve performance here.,89.0,performance
+505,107,36,object_oriented,Inheritance hierarchy seems deep here.,132.0,security
+506,107,36,object_oriented,Consider making this method virtual for extensibility.,120.0,bug
+507,107,36,object_oriented,The Processor class is tightly coupled to Logger.,,bug
+508,107,36,object_oriented,The Processor class is tightly coupled to Parser.,,style
+509,107,36,object_oriented,Consider using an interface here for flexibility.,185.0,design
+510,108,36,procedural,The loop could be optimized by caching.,132.0,performance
+511,108,36,procedural,Side effects make this function hard to test.,128.0,bug
+512,108,36,procedural,Global variable used here creates hidden dependency.,130.0,performance
+513,108,36,procedural,The loop could be optimized by caching.,13.0,bug
+514,108,36,procedural,Magic numbers should be replaced with named constants.,168.0,documentation
+515,108,36,procedural,Side effects make this function hard to test.,,bug
+516,109,37,object_oriented,Consider making this method virtual for extensibility.,68.0,documentation
+517,109,37,object_oriented,Consider using an interface here for flexibility.,94.0,bug
+518,109,37,object_oriented,This method has high cyclomatic complexity.,,security
+519,109,37,object_oriented,Good use of encapsulation in this class.,74.0,bug
+520,109,37,object_oriented,This method has high cyclomatic complexity.,196.0,security
+521,109,37,object_oriented,The Controller class is tightly coupled to Logger.,101.0,design
+522,109,37,object_oriented,Consider using an interface here for flexibility.,94.0,style
+523,110,37,procedural,The loop could be optimized by loop unrolling.,12.0,bug
+524,110,37,procedural,Consider breaking this into smaller functions.,122.0,security
+525,110,37,procedural,Side effects make this function hard to test.,,security
+526,110,37,procedural,Consider breaking this into smaller functions.,157.0,design
+527,110,37,procedural,Consider breaking this into smaller functions.,158.0,documentation
+528,110,37,procedural,Magic numbers should be replaced with named constants.,130.0,security
+529,110,37,procedural,Consider adding input validation.,145.0,design
+530,110,37,procedural,Side effects make this function hard to test.,95.0,design
+531,110,37,procedural,Global variable used here creates hidden dependency.,150.0,design
+532,110,37,procedural,This function is too long (68 lines).,168.0,security
+533,111,37,functional,The monadic pattern here seems overly complex.,,bug
+534,111,37,functional,The monadic pattern here seems overly complex.,135.0,documentation
+535,111,37,functional,The monadic pattern here seems overly complex.,98.0,style
+536,111,37,functional,This pure function has a side effect in line 18.,180.0,bug
+537,111,37,functional,This pure function has a side effect in line 14.,108.0,style
+538,111,37,functional,Function is doing too much - consider separating concerns.,106.0,security
+539,111,37,functional,The monadic pattern here seems overly complex.,189.0,documentation
+540,111,37,functional,This higher-order function could be more composable.,133.0,style
+541,111,37,functional,Consider using function composition for better functional style.,123.0,security
+542,111,37,functional,Function is doing too much - consider separating concerns.,45.0,performance
+543,112,38,procedural,Consider adding input validation.,91.0,documentation
+544,112,38,procedural,Magic numbers should be replaced with named constants.,50.0,style
+545,112,38,procedural,Magic numbers should be replaced with named constants.,58.0,design
+546,112,38,procedural,Magic numbers should be replaced with named constants.,177.0,documentation
+547,112,38,procedural,Side effects make this function hard to test.,90.0,security
+548,112,38,procedural,Magic numbers should be replaced with named constants.,,security
+549,112,38,procedural,Consider adding input validation.,102.0,design
+550,113,38,functional,The lambda is concise but lacks clarity.,,design
+551,113,38,functional,Consider using recursion instead of iteration here.,114.0,documentation
+552,113,38,functional,Type signature could be more specific.,55.0,style
+553,113,38,functional,Consider using function composition for better functional style.,179.0,design
+554,114,38,object_oriented,Inheritance hierarchy seems deep here.,,documentation
+555,114,38,object_oriented,Watch for potential Liskov Substitution violations.,,bug
+556,114,38,object_oriented,The factory method pattern would work well here.,,style
+557,114,38,object_oriented,This class violates the Single Responsibility Principle.,,design
+558,114,38,object_oriented,Polymorphism could simplify this logic.,,style
+559,115,39,functional,This higher-order function could be more composable.,41.0,performance
+560,115,39,functional,Good use of immutability throughout.,52.0,design
+561,115,39,functional,Memoization would improve performance here.,,bug
+562,115,39,functional,Consider using recursion instead of iteration here.,60.0,security
+563,116,39,object_oriented,This class violates the Single Responsibility Principle.,45.0,performance
+564,116,39,object_oriented,Inheritance hierarchy seems deep here.,10.0,performance
+565,116,39,object_oriented,Polymorphism could simplify this logic.,,documentation
+566,116,39,object_oriented,The Controller class is tightly coupled to Database.,,security
+567,116,39,object_oriented,Consider making this method virtual for extensibility.,86.0,design
+568,117,39,procedural,Side effects make this function hard to test.,140.0,security
+569,117,39,procedural,Side effects make this function hard to test.,35.0,security
+570,117,39,procedural,Side effects make this function hard to test.,,bug
+571,117,39,procedural,Error handling is inconsistent in this procedure.,,performance
+572,117,39,procedural,Magic numbers should be replaced with named constants.,4.0,documentation
+573,117,39,procedural,Error handling is inconsistent in this procedure.,146.0,documentation
+574,118,40,object_oriented,Good use of encapsulation in this class.,,documentation
+575,118,40,object_oriented,This method has high cyclomatic complexity.,132.0,design
+576,118,40,object_oriented,Consider making this method virtual for extensibility.,25.0,style
+577,118,40,object_oriented,Inheritance hierarchy seems deep here.,64.0,bug
+578,118,40,object_oriented,The Processor class is tightly coupled to Logger.,69.0,design
+579,118,40,object_oriented,The Controller class is tightly coupled to Validator.,178.0,style
+580,119,40,procedural,This function is too long (72 lines).,,design
+581,119,40,procedural,Consider breaking this into smaller functions.,129.0,documentation
+582,120,40,functional,Type signature could be more specific.,164.0,design
+583,120,40,functional,Memoization would improve performance here.,57.0,style
+584,120,40,functional,Good use of immutability throughout.,,documentation
+585,120,40,functional,The monadic pattern here seems overly complex.,180.0,security
+586,121,41,procedural,Side effects make this function hard to test.,171.0,style
+587,121,41,procedural,The loop could be optimized by precomputing.,136.0,documentation
+588,121,41,procedural,Error handling is inconsistent in this procedure.,,security
+589,121,41,procedural,Global variable used here creates hidden dependency.,,security
+590,122,41,functional,Consider using currying for better functional style.,39.0,style
+591,122,41,functional,Memoization would improve performance here.,114.0,bug
+592,122,41,functional,This pure function has a side effect in line 135.,,security
+593,122,41,functional,Good use of immutability throughout.,117.0,style
+594,122,41,functional,Consider using tail recursion for better functional style.,15.0,security
+595,122,41,functional,Good use of immutability throughout.,79.0,documentation
+596,122,41,functional,This higher-order function could be more composable.,1.0,documentation
+597,123,41,object_oriented,Good use of encapsulation in this class.,12.0,performance
+598,123,41,object_oriented,Consider using an interface here for flexibility.,139.0,bug
+599,123,41,object_oriented,Consider making this method virtual for extensibility.,121.0,bug
+600,123,41,object_oriented,The Processor class is tightly coupled to Logger.,197.0,documentation
+601,123,41,object_oriented,This method has high cyclomatic complexity.,98.0,performance
+602,123,41,object_oriented,This method has high cyclomatic complexity.,175.0,documentation
+603,123,41,object_oriented,The factory method pattern would work well here.,,design
+604,123,41,object_oriented,Consider making this method virtual for extensibility.,,security
+605,123,41,object_oriented,This method has high cyclomatic complexity.,187.0,style
+606,124,42,functional,This higher-order function could be more composable.,77.0,performance
+607,124,42,functional,Consider using tail recursion for better functional style.,59.0,style
+608,124,42,functional,Good use of immutability throughout.,71.0,style
+609,125,42,object_oriented,Consider making this method virtual for extensibility.,,documentation
+610,125,42,object_oriented,This method has high cyclomatic complexity.,5.0,style
+611,125,42,object_oriented,Good use of encapsulation in this class.,,security
+612,126,42,procedural,This function is too long (58 lines).,181.0,bug
+613,126,42,procedural,The loop could be optimized by precomputing.,60.0,security
+614,126,42,procedural,The loop could be optimized by precomputing.,,design
+615,126,42,procedural,The loop could be optimized by early exit.,198.0,documentation
+616,127,43,object_oriented,Consider using an interface here for flexibility.,,style
+617,127,43,object_oriented,The factory method pattern would work well here.,,design
+618,127,43,object_oriented,The Controller class is tightly coupled to Logger.,110.0,security
+619,128,43,procedural,Side effects make this function hard to test.,,design
+620,128,43,procedural,Good algorithmic efficiency here.,82.0,documentation
+621,128,43,procedural,Good algorithmic efficiency here.,77.0,performance
+622,128,43,procedural,Consider breaking this into smaller functions.,122.0,style
+623,128,43,procedural,The loop could be optimized by early exit.,37.0,performance
+624,129,43,functional,This higher-order function could be more composable.,107.0,security
+625,129,43,functional,Consider using currying for better functional style.,66.0,style
+626,129,43,functional,Memoization would improve performance here.,116.0,design
+627,129,43,functional,Consider using recursion instead of iteration here.,49.0,bug
+628,129,43,functional,Type signature could be more specific.,155.0,security
+629,129,43,functional,This higher-order function could be more composable.,49.0,security
+630,129,43,functional,Consider using currying for better functional style.,86.0,design
+631,130,44,procedural,This function is too long (43 lines).,190.0,bug
+632,130,44,procedural,Side effects make this function hard to test.,179.0,security
+633,131,44,functional,This pure function has a side effect in line 111.,142.0,design
+634,131,44,functional,Type signature could be more specific.,137.0,documentation
+635,131,44,functional,Memoization would improve performance here.,93.0,security
+636,131,44,functional,Good use of immutability throughout.,185.0,performance
+637,131,44,functional,Memoization would improve performance here.,95.0,design
+638,131,44,functional,Function is doing too much - consider separating concerns.,,style
+639,131,44,functional,The lambda is concise but lacks clarity.,,security
+640,131,44,functional,The monadic pattern here seems overly complex.,107.0,design
+641,132,44,object_oriented,Inheritance hierarchy seems deep here.,,style
+642,132,44,object_oriented,This method has high cyclomatic complexity.,63.0,performance
+643,132,44,object_oriented,The factory method pattern would work well here.,176.0,design
+644,132,44,object_oriented,The Processor class is tightly coupled to Parser.,188.0,design
+645,132,44,object_oriented,Inheritance hierarchy seems deep here.,,security
+646,133,45,functional,Good use of immutability throughout.,,security
+647,133,45,functional,This higher-order function could be more composable.,20.0,documentation
+648,133,45,functional,This higher-order function could be more composable.,106.0,style
+649,133,45,functional,This pure function has a side effect in line 27.,3.0,style
+650,133,45,functional,Consider using tail recursion for better functional style.,159.0,documentation
+651,133,45,functional,The monadic pattern here seems overly complex.,169.0,performance
+652,134,45,object_oriented,This class violates the Single Responsibility Principle.,,security
+653,134,45,object_oriented,This method has high cyclomatic complexity.,,security
+654,134,45,object_oriented,The Handler class is tightly coupled to Database.,179.0,documentation
+655,134,45,object_oriented,This method has high cyclomatic complexity.,46.0,bug
+656,135,45,procedural,Global variable used here creates hidden dependency.,62.0,style
+657,135,45,procedural,The control flow is complex and hard to follow.,91.0,design
+658,135,45,procedural,Good algorithmic efficiency here.,,performance
+659,135,45,procedural,Side effects make this function hard to test.,179.0,style
+660,135,45,procedural,Magic numbers should be replaced with named constants.,21.0,documentation
+661,136,46,object_oriented,This class violates the Single Responsibility Principle.,,performance
+662,136,46,object_oriented,This method has high cyclomatic complexity.,15.0,documentation
+663,136,46,object_oriented,This class violates the Single Responsibility Principle.,22.0,performance
+664,136,46,object_oriented,This method has high cyclomatic complexity.,85.0,security
+665,136,46,object_oriented,Consider making this method virtual for extensibility.,11.0,style
+666,136,46,object_oriented,Good use of encapsulation in this class.,178.0,security
+667,136,46,object_oriented,Polymorphism could simplify this logic.,,bug
+668,136,46,object_oriented,The Controller class is tightly coupled to Logger.,81.0,bug
+669,136,46,object_oriented,Good use of encapsulation in this class.,193.0,documentation
+670,137,46,procedural,Good algorithmic efficiency here.,77.0,style
+671,137,46,procedural,The control flow is complex and hard to follow.,,performance
+672,137,46,procedural,Consider adding input validation.,194.0,documentation
+673,138,46,functional,The lambda is concise but lacks clarity.,177.0,documentation
+674,138,46,functional,Consider using recursion instead of iteration here.,89.0,bug
+675,138,46,functional,Consider using recursion instead of iteration here.,20.0,design
+676,138,46,functional,The monadic pattern here seems overly complex.,153.0,performance
+677,139,47,procedural,Error handling is inconsistent in this procedure.,,design
+678,139,47,procedural,Side effects make this function hard to test.,92.0,security
+679,139,47,procedural,Good algorithmic efficiency here.,175.0,security
+680,139,47,procedural,Good algorithmic efficiency here.,,security
+681,139,47,procedural,Magic numbers should be replaced with named constants.,183.0,bug
+682,140,47,functional,Consider using recursion instead of iteration here.,,performance
+683,140,47,functional,The lambda is concise but lacks clarity.,82.0,design
+684,140,47,functional,Consider using recursion instead of iteration here.,,design
+685,140,47,functional,Good use of immutability throughout.,70.0,bug
+686,141,47,object_oriented,Inheritance hierarchy seems deep here.,,performance
+687,141,47,object_oriented,Polymorphism could simplify this logic.,132.0,performance
+688,141,47,object_oriented,Consider making this method virtual for extensibility.,,design
+689,142,48,functional,Consider using map/filter/reduce for better functional style.,84.0,performance
+690,142,48,functional,This higher-order function could be more composable.,,performance
+691,142,48,functional,Consider using recursion instead of iteration here.,144.0,style
+692,142,48,functional,The monadic pattern here seems overly complex.,176.0,performance
+693,142,48,functional,The lambda is concise but lacks clarity.,,design
+694,142,48,functional,Type signature could be more specific.,17.0,style
+695,142,48,functional,Function is doing too much - consider separating concerns.,,design
+696,142,48,functional,Good use of immutability throughout.,93.0,design
+697,142,48,functional,This pure function has a side effect in line 136.,51.0,performance
+698,143,48,object_oriented,Consider making this method virtual for extensibility.,,bug
+699,143,48,object_oriented,This method has high cyclomatic complexity.,159.0,performance
+700,143,48,object_oriented,Consider using an interface here for flexibility.,111.0,documentation
+701,143,48,object_oriented,Watch for potential Liskov Substitution violations.,,design
+702,144,48,procedural,The control flow is complex and hard to follow.,52.0,performance
+703,144,48,procedural,Error handling is inconsistent in this procedure.,,performance
+704,144,48,procedural,Error handling is inconsistent in this procedure.,,documentation
+705,144,48,procedural,Side effects make this function hard to test.,63.0,design
+706,144,48,procedural,Good algorithmic efficiency here.,,performance
+707,145,49,object_oriented,Consider using an interface here for flexibility.,,security
+708,145,49,object_oriented,Good use of encapsulation in this class.,140.0,style
+709,145,49,object_oriented,The factory method pattern would work well here.,,documentation
+710,145,49,object_oriented,Polymorphism could simplify this logic.,54.0,performance
+711,146,49,procedural,Magic numbers should be replaced with named constants.,18.0,performance
+712,146,49,procedural,Side effects make this function hard to test.,,design
+713,146,49,procedural,The loop could be optimized by early exit.,184.0,performance
+714,146,49,procedural,Good algorithmic efficiency here.,,security
+715,146,49,procedural,Side effects make this function hard to test.,137.0,security
+716,147,49,functional,Function is doing too much - consider separating concerns.,93.0,documentation
+717,147,49,functional,Consider using map/filter/reduce for better functional style.,,style
+718,147,49,functional,Memoization would improve performance here.,,security
+719,147,49,functional,This higher-order function could be more composable.,166.0,documentation
+720,147,49,functional,Function is doing too much - consider separating concerns.,85.0,performance
+721,148,50,procedural,Global variable used here creates hidden dependency.,,design
+722,148,50,procedural,The loop could be optimized by caching.,101.0,performance
+723,148,50,procedural,The control flow is complex and hard to follow.,39.0,design
+724,148,50,procedural,This function is too long (60 lines).,,performance
+725,148,50,procedural,Global variable used here creates hidden dependency.,,documentation
+726,148,50,procedural,Consider breaking this into smaller functions.,88.0,performance
+727,148,50,procedural,The loop could be optimized by loop unrolling.,25.0,performance
+728,148,50,procedural,Side effects make this function hard to test.,77.0,bug
+729,148,50,procedural,Global variable used here creates hidden dependency.,,design
+730,149,50,functional,Consider using recursion instead of iteration here.,43.0,documentation
+731,149,50,functional,This pure function has a side effect in line 142.,,style
+732,149,50,functional,Memoization would improve performance here.,119.0,style
+733,149,50,functional,Function is doing too much - consider separating concerns.,48.0,documentation
+734,149,50,functional,Function is doing too much - consider separating concerns.,189.0,security
+735,150,50,object_oriented,Good use of encapsulation in this class.,110.0,performance
+736,150,50,object_oriented,This class violates the Single Responsibility Principle.,53.0,design
+737,150,50,object_oriented,Consider making this method virtual for extensibility.,138.0,style
+738,150,50,object_oriented,Consider using an interface here for flexibility.,118.0,bug
+739,150,50,object_oriented,The Processor class is tightly coupled to Validator.,157.0,performance
+740,150,50,object_oriented,Watch for potential Liskov Substitution violations.,,design
+741,150,50,object_oriented,Polymorphism could simplify this logic.,173.0,documentation
+742,150,50,object_oriented,The Controller class is tightly coupled to Logger.,62.0,design
