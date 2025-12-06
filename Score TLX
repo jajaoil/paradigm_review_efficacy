@@ -1,0 +1,3 @@
+from score_nasa_tlx import compute_average_tlx
+tlx_scored = compute_average_tlx(tlx)
+tlx_scored.head()
