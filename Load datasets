@@ -1,0 +1,6 @@
+timing = pd.read_csv('../data/timing_raw.csv')
+tlx = pd.read_csv('../data/nasa_tlx_raw.csv')
+comments = pd.read_csv('../data/comments_raw.csv')
+coding = pd.read_csv('../data/coding_sheet.csv')
+eye = pd.read_csv('../data/eye_aggregates.csv')
+defects = pd.read_csv('../data/defects_per_participant.csv')
